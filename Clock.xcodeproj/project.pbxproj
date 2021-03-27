@@ -16,6 +16,7 @@
 		3B7E3B5622DA343E00BFECCF /* ClockIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E3B5522DA343E00BFECCF /* ClockIndicator.swift */; };
 		3B7E3B5822DA347700BFECCF /* ClockMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E3B5722DA347700BFECCF /* ClockMarks.swift */; };
 		3B7E3B5A22DA34AD00BFECCF /* ClockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7E3B5922DA34AD00BFECCF /* ClockModel.swift */; };
+		9D0C358B260FDAD00043E6B7 /* ClockNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0C358A260FDAD00043E6B7 /* ClockNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3B7E3B5522DA343E00BFECCF /* ClockIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockIndicator.swift; sourceTree = "<group>"; };
 		3B7E3B5722DA347700BFECCF /* ClockMarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockMarks.swift; sourceTree = "<group>"; };
 		3B7E3B5922DA34AD00BFECCF /* ClockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockModel.swift; sourceTree = "<group>"; };
+		9D0C358A260FDAD00043E6B7 /* ClockNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				3B7E3B5922DA34AD00BFECCF /* ClockModel.swift */,
 				3B7E3B5722DA347700BFECCF /* ClockMarks.swift */,
+				9D0C358A260FDAD00043E6B7 /* ClockNumber.swift */,
 				3B7E3B5522DA343E00BFECCF /* ClockIndicator.swift */,
 				3B059EF722CE697100B5059E /* ClockView.swift */,
 			);
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0C358B260FDAD00043E6B7 /* ClockNumber.swift in Sources */,
 				3B7E3B5622DA343E00BFECCF /* ClockIndicator.swift in Sources */,
 				3B059EF422CE697100B5059E /* AppDelegate.swift in Sources */,
 				3B7E3B5822DA347700BFECCF /* ClockMarks.swift in Sources */,

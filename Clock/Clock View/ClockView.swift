@@ -18,6 +18,7 @@ struct ClockView : View {
         ZStack {
             Circle().stroke(Color.primary)
             ClockMarks()
+            ClockNumber()
             ClockIndicator(type: .hour, time: time)
             ClockIndicator(type: .minute, time: time)
             ClockIndicator(type: .second, time: time)

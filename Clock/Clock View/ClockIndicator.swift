@@ -17,9 +17,9 @@ struct ClockIndicator: View {
         
         var thickness: CGFloat {
             switch self {
-            case .hour: return 6
+            case .hour: return 10
             case .second: return 1
-            case .minute: return 3
+            case .minute: return 5
             }
         }
         
